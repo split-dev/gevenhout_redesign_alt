@@ -1,0 +1,52 @@
+.angle-down{
+    background-image: url('../img/angle-down.svg');
+    width: 12px;
+    height: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+.angle-right{
+    background-image: url('../img/angle-right.svg');
+    width: 6px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+.house{
+    background-image: url('../img/house.svg');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+.angle-left{
+    background-image: url('../img/angle-left.svg');
+    width: 6px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+.angle-top{
+    background-image: url('../img/angle-top.svg');
+    width: 10px;
+    height: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-center{
+    justify-content: center;
+}

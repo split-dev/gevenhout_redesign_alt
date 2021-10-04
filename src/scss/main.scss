@@ -1,0 +1,41 @@
+/*
+Other
+*/
+
+@import 'variables';
+@import 'fonts';
+/*
+Components
+*/
+@import './components/other';
+@import './components/links';
+@import './components/header';
+@import './components/footer';
+/*
+Page Styles
+*/
+@import './pagestyles/product';
+@import './pagestyles/category';
+@import './pagestyles/landing';
+@import './pagestyles/contact';
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.container{
+    max-width: $container;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+ul{
+    list-style: none;
+}
+body{
+    padding-top: 100px;
+}
+/*
+Media Queries
+*/
+@import './components/media';

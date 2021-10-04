@@ -1,0 +1,20 @@
+.links{
+    width: 100%;
+    background: #000;
+    padding: 25px 0px;
+    &__inner{
+        display: flex;
+        align-items: center;
+        span{
+            margin-left: 16px;
+            margin-right: 12px;
+        }
+        a{
+            font-family: 'Roboto';
+            color: #fff;
+            font-size: 15px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+    }
+}

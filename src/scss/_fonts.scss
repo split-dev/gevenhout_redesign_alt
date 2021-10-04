@@ -1,0 +1,11 @@
+@mixin font-face($font-family, $url, $weight) {
+    @font-face {
+        font-family: '#{$font-family}';
+        src: url('../fonts/#{$url}.woff2') format('woff2'),
+        url('../fonts/#{$url}.woff') format('woff');
+        font-weight: #{$weight};
+        font-display: swap;
+        font-style: normal;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto+Slab:wght@300;700&family=Roboto:wght@300;400;700&display=swap');
