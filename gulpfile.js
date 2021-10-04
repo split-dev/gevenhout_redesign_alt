@@ -174,4 +174,4 @@ const scriptsBuild = () =>{
         .pipe(uglify().on('error', notify.onError()))
         .pipe(dest('./app/js'))
 }
-exports.build = series(clean, parallel(htmlInclude, scriptsBuild, fonts, resources, imgToApp,), stylesBuild, tiny)
+exports.build = series(clean, parallel(htmlInclude, scriptsBuild, fonts, resources, imgToApp,), stylesBuild )
