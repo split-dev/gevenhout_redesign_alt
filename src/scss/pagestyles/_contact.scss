@@ -17,9 +17,9 @@
     left: 0;
     z-index: 1;
     bottom: 0;
-    right: 0;
+    right: -1px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-image: url('../img/contact-preheader.svg')
 }
