@@ -30,7 +30,7 @@ const swiperProduct = new Swiper('.product__bigslider',{
 })
 const productSlider = new Swiper('.products__slider',{
     slidesPerView: 'auto',
-    spaceBetween: 30,
+    spaceBetween: 40,
     navigation: {
         nextEl: ".arrow-right",
         prevEl: ".arrow-left",
@@ -119,7 +119,7 @@ if(mobInfoItemTop){
     mobInfoItemTop.forEach((item,index)=>{
         item.addEventListener('click',()=>{
             if(item.classList.contains('active')){
-                mobInfoItemContent[index].style.maxHeight = '0px'
+                mobInfoItemContent[index].style.maxHeight = '800px'
                 item.classList.remove('active')
                 setTimeout(() => {
                     mobInfoItemContent[index].classList.remove('active')
@@ -128,7 +128,7 @@ if(mobInfoItemTop){
                 item.classList.add('active')
                 mobInfoItemContent[index].classList.add('active')
                 setTimeout(() => {
-                    mobInfoItemContent[index].style.maxHeight = '1000px'
+                    mobInfoItemContent[index].style.maxHeight = '800px'
                 }, 10);
             }
         })
@@ -180,8 +180,19 @@ const hideDopInfo = document.querySelector('.hideDopInfo')
 
 if(hideDopInfo){
     hideDopInfo.addEventListener('click',()=>{
-        hideDopInfo.classList.toggle('active')
-        productMoreTableDop.classList.toggle('hide')
+       if(hideDopInfo.classList.contains('active')){
+        hideDopInfo.classList.remove('active')
+        productMoreTableDop.classList.remove('hide')
+        setTimeout(() => {
+            productMoreTableDop.style.opacity = '1'
+        }, 100);
+       }else{
+            hideDopInfo.classList.add('active')
+            productMoreTableDop.style.opacity = '0'
+            setTimeout(() => {
+                productMoreTableDop.classList.add('hide')
+            }, 100);
+       }
     })
 }
 
@@ -275,12 +286,14 @@ headerMobMenu.addEventListener('click',()=>{
    if(headerMobMenu.classList.contains('close')){
     headerMobMenu.classList.remove('close')
     headerMobMenuOpen.classList.remove('active')
+    body.style.overflow = 'scroll'
     setTimeout(() => {
         headerMobMenuOpen.style.opacity = '0'
      }, 100);
    }else{
     headerMobMenuOpen.classList.add('active')
     headerMobMenu.classList.add('close')
+    body.style.overflow = 'hidden'
     setTimeout(() => {
        headerMobMenuOpen.style.opacity = '1'
     }, 100);
@@ -378,6 +391,7 @@ closeOther.forEach((item,index)=>{
     headerLastRef.classList.remove('active')
     headerMobMenu.classList.remove('active')
     headerMobMenu.classList.remove('close')
+    body.style.overflow = 'scroll'
    })
 })
 
