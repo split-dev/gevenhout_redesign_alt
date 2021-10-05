@@ -1,5 +1,4 @@
 .header-contact{
-    background-image: url('../img/contact-header.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -19,9 +18,12 @@
     bottom: 0;
     right: -1px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     background-position: top;
-    background-image: url('../img/contact-preheader.svg')
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMzEyLjc4NiIgaGVpZ2h0PSI5NzcuNzc2IiB2aWV3Qm94PSIwIDAgMjMxMi43ODYgOTc3Ljc3NiI+CiAgPHBhdGggaWQ9IkNpcmN1aXRfMjgxIiBkYXRhLW5hbWU9IkNpcmN1aXQgMjgxIiBkPSJNMTE4Ni4xLDY0MC45MThsLTkuOTMzLDE0LjE1My0xMi4xMSwxNy4yNTJhOS4xNDksOS4xNDksMCwwLDEtMTUuMzM1LDBsLTEyLjEwOS0xNy4yNTItOS45MzMtMTQuMTUzSDB2OTc3Ljc3NkgyMzAzLjRsOS4zODgtOTc3Ljc3NloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTY0MC45MTgpIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=');
+    @media (max-width: 2200px) {
+        background-size: auto;
+    }
 }
 .contact__inner{
     padding-top: 130px;

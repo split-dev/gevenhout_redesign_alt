@@ -58,6 +58,34 @@ body{
     min-width: 52px;
 }
 
+.btn-orange {
+    transition: 0.3s;
+    &:hover {
+        background-color: #036e31 !important;
+    }
+}
+.btn-green {
+    transition: 0.3s;
+    &:hover {
+        background-color: #f07d02 !important;
+        font-weight: 500;
+
+    }
+}
+.btn-white {
+    transition: 0.3s;
+    &:hover {
+        background-color: #fff;
+        color: #036e31;
+        font-weight: 500;
+        svg {
+            path {
+                stroke: #036e31;
+            }
+        }
+
+    }
+}
 /*
 Media Queries
 */

@@ -153,8 +153,21 @@
     margin-top: -80px;
     padding-left: 30px;
     & a{
+        text-decoration: none;
+        svg {
+            path {
+                transition: 0.3s;
+            }
+        }
         &:nth-child(2){
             margin: 0px 15px;
+        }
+        &:hover {
+            svg {
+                path {
+                    fill: #036e31;
+                }
+            }
         }
     }
 }
@@ -224,7 +237,7 @@
 }
 .custom-select{
     position: relative;
-    width: 40%;
+    width: 43%;
     cursor: pointer;
     & svg{
         position: absolute;

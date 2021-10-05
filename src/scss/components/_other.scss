@@ -1,5 +1,5 @@
 .angle-down{
-    background-image: url('../img/angle-down.svg');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNC41NzkiIGhlaWdodD0iNy44OTgiIHZpZXdCb3g9IjAgMCAxNC41NzkgNy44OTgiPgogIDxnIGlkPSJHcm91cF8zMCIgZGF0YS1uYW1lPSJHcm91cCAzMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg4MC4xODkgLTY4LjAyOSkiPgogICAgPGcgaWQ9Ikdyb3VwXzI5IiBkYXRhLW5hbWU9Ikdyb3VwIDI5Ij4KICAgICAgPHBhdGggaWQ9IkNpcmN1aXRfMzEiIGRhdGEtbmFtZT0iQ2lyY3VpdCAzMSIgZD0iTTg5My40ODUsNjkuMzEybC0zLDIuODU0LTMsMi44NTQtMy0yLjg1NC0zLTIuODU0IiBmaWxsPSJub25lIiBzdHJva2U9IiMyYjI1MjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjgxNCIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==');
     width: 12px;
     height: 6px;
     background-size: contain;
@@ -7,7 +7,7 @@
     display: block;
 }
 .angle-right{
-    background-image: url('../img/angle-right.svg');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1LjU1NyIgaGVpZ2h0PSI5LjQ4NCIgdmlld0JveD0iMCAwIDUuNTU3IDkuNDg0Ij4KICA8ZyBpZD0iR3JvdXBfNTUiIGRhdGEtbmFtZT0iR3JvdXAgNTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00MjEuODcyIC0xNjkuMzgyKSI+CiAgICA8cGF0aCBpZD0iQ2lyY3VpdF80MSIgZGF0YS1uYW1lPSJDaXJjdWl0IDQxIiBkPSJNNDIyLjg3MywxNzguODY2YTEsMSwwLDAsMS0uNzI1LTEuNjg4bDIuOS0zLjA1NC0yLjktMy4wNTNhMSwxLDAsMSwxLDEuNDUtMS4zNzdsMy41NTYsMy43NDFhMSwxLDAsMCwxLDAsMS4zNzlsLTMuNTU2LDMuNzQxQTEsMSwwLDAsMSw0MjIuODczLDE3OC44NjZaIiBmaWxsPSIjZmZmIi8+CiAgPC9nPgo8L3N2Zz4K');
     width: 6px;
     height: 10px;
     background-size: contain;
@@ -15,7 +15,7 @@
     display: block;
 }
 .house{
-    background-image: url('../img/house.svg');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOS45NCIgaGVpZ2h0PSIxOS41ODgiIHZpZXdCb3g9IjAgMCAxOS45NCAxOS41ODgiPgogIDxnIGlkPSJHcm91cF81NyIgZGF0YS1uYW1lPSJHcm91cCA1NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTM4NS45ODYgLTE2MS41NDgpIj4KICAgIDxnIGlkPSJHcm91cF81NiIgZGF0YS1uYW1lPSJHcm91cCA1NiI+CiAgICAgIDxwYXRoIGlkPSJDaXJjdWl0XzQyIiBkYXRhLW5hbWU9IkNpcmN1aXQgNDIiIGQ9Ik00MDEuNjUyLDE3OS43di0uMjU4cTAtNS4xMywwLTEwLjI1OGEuNDg2LjQ4NiwwLDAsMC0uMTA1LS4zMTJxLTIuNzUyLTIuNzcyLTUuNTE4LTUuNTI4Yy0uMDE1LS4wMTUtLjAzNC0uMDI3LS4wNzItLjA1OC0uMDYuMDU3LS4xMjMuMTE1LS4xODQuMTc2cS00LjI0OCw0LjI0OC04LjUsOC41YS43MzMuNzMzLDAsMCwxLS44LjI0LjcwNi43MDYsMCwwLDEtLjMyNS0xLjEyM2MuMDQ3LS4wNTcuMS0uMTA3LjE1NC0uMTZsOS4wMzItOS4wMzFhLjc0NC43NDQsMCwwLDEsMS4yMzcsMHE0LjUzMSw0LjUzMSw5LjA2Myw5LjA2MmEuNzUxLjc1MSwwLDAsMSwuMjcyLjczMy42ODMuNjgzLDAsMCwxLS40ODcuNTI5LjY3NS42NzUsMCwwLDEtLjcxNS0uMTgyYy0uNDc5LS40NzQtLjk1NS0uOTUzLTEuNDMzLTEuNDI5LS4wNTEtLjA1MS0uMTA1LS4xLS4yLS4xODZ2LjI3M3EwLDQuODA4LDAsOS42MTRjMCwuNTc4LS4yNjUuODQ1LS44NC44NDVoLTEyLjU3YS43MjguNzI4LDAsMCwxLS44MzEtLjgzcTAtMy44MjgsMC03LjY1NGEuNzEzLjcxMywwLDEsMSwxLjQyMy0uMDIxYzAsLjgxNiwwLDEuNjMsMCwyLjQ0N1YxNzkuN1oiIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==');
     width: 20px;
     height: 20px;
     background-size: contain;
@@ -23,7 +23,7 @@
     display: block;
 }
 .angle-left{
-    background-image: url('../img/angle-left.svg');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2LjcxNSIgaGVpZ2h0PSIxMy4xMTIiIHZpZXdCb3g9IjAgMCA2LjcxNSAxMy4xMTIiPgogIDxwYXRoIGlkPSJDaXJjdWl0XzE5MSIgZGF0YS1uYW1lPSJDaXJjdWl0IDE5MSIgZD0iTTEwOTAuMTE0LDExODYuMTE2bDQuMzA2LDUuMTQ3LTQuMzA2LDUuMTQ3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDk1LjQyIDExOTcuODIpIHJvdGF0ZSgxODApIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMTcwMzMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPgo=');
     width: 6px;
     height: 10px;
     background-size: contain;
@@ -31,7 +31,7 @@
     display: block;
 }
 .angle-top{
-    background-image: url('../img/angle-top.svg');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5LjIyMiIgaGVpZ2h0PSI0Ljk0NiIgdmlld0JveD0iMCAwIDkuMjIyIDQuOTQ2Ij4KICA8cGF0aCBpZD0iQ2lyY3VpdF8yMDIiIGRhdGEtbmFtZT0iQ2lyY3VpdCAyMDIiIGQ9Ik0xMjAzLjU2Niw4NDIuNTExbDMuNjI1LDMuNDkxLDMuODkzLTMuNDkxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjExLjkzNiA4NDYuNjA0KSByb3RhdGUoMTgwKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTg1OTViIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS4yMDUiLz4KPC9zdmc+Cg==');
     width: 10px;
     height: 6px;
     background-size: contain;

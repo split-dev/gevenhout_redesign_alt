@@ -15,6 +15,20 @@
             font-size: 15px;
             font-weight: 400;
             text-decoration: none;
+            transition: 0.3s;
+            svg {
+                path {
+                    transition: 0.3s;
+                }
+            }
+            &:hover {
+                color: #036e31;
+                svg {
+                    path {
+                        fill: #036e31;
+                    }
+                }
+            }
         }
     }
 }
