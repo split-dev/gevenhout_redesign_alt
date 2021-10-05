@@ -184,6 +184,7 @@
             font-weight: 700;
             color: #fff;
             font-size: 26px;
+            margin-right: 15px;
         }
 }
 .form__footer{
@@ -210,8 +211,8 @@
        &:hover{
            background: #fff;
            color: #087033;
-           height: 53px;
-           border: 2px solid #087033;
+           height: 50px;
+           border: 2px solid #fff;
            transition: all .2s ease-in-out;
            & svg{
                path{

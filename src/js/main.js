@@ -30,7 +30,7 @@ const swiperProduct = new Swiper('.product__bigslider',{
 })
 const productSlider = new Swiper('.products__slider',{
     slidesPerView: 1.3,
-    spaceBetween: 40,
+    spaceBetween: 30,
 
     navigation: {
         nextEl: ".arrow-right",
@@ -138,7 +138,7 @@ if(mobInfoItemTop){
     mobInfoItemTop.forEach((item,index)=>{
         item.addEventListener('click',()=>{
             if(item.classList.contains('active')){
-                mobInfoItemContent[index].style.maxHeight = '800px'
+                mobInfoItemContent[index].style.maxHeight = 'auto'
                 item.classList.remove('active')
                 setTimeout(() => {
                     mobInfoItemContent[index].classList.remove('active')
@@ -147,7 +147,7 @@ if(mobInfoItemTop){
                 item.classList.add('active')
                 mobInfoItemContent[index].classList.add('active')
                 setTimeout(() => {
-                    mobInfoItemContent[index].style.maxHeight = '800px'
+                    mobInfoItemContent[index].style.maxHeight = 'auto'
                 }, 10);
             }
         })
