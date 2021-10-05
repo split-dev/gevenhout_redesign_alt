@@ -47,10 +47,10 @@ const productSlider = new Swiper('.products__slider',{
         },
         1099: {
             slidesPerView: 3.3,
-            spaceBetween: 40
+            spaceBetween: 30
         },
         1300: {
-            slidesPerView: 4.3,
+            slidesPerView: 4,
             spaceBetween: 40
         }
     }
