@@ -29,12 +29,31 @@ const swiperProduct = new Swiper('.product__bigslider',{
     }
 })
 const productSlider = new Swiper('.products__slider',{
-    slidesPerView: 'auto',
+    slidesPerView: 1.3,
     spaceBetween: 40,
+
     navigation: {
         nextEl: ".arrow-right",
         prevEl: ".arrow-left",
-      },
+    },
+    breakpoints: {
+        375: {
+            slidesPerView: 1.3,
+            spaceBetween: 30
+        },
+        767: {
+            slidesPerView: 2.8,
+            spaceBetween: 30
+        },
+        1099: {
+            slidesPerView: 3.3,
+            spaceBetween: 40
+        },
+        1300: {
+            slidesPerView: 4.3,
+            spaceBetween: 40
+        }
+    }
 })
 const body = document.querySelector('body')
 
