@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gevenhout</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css?v=0.01"/>
+    <link rel="stylesheet" href="./css/main.min.css?v=0.01">
 </head>
 <body>
     <div class="header__menu__open">
@@ -887,12 +887,6 @@
             <h3>FILTER</h3>   
         </div>
         <div class="category__first filter__filters">
-            <div class="category__first--start">
-                <h3>Actieve filters</h3>
-                <a href="\">
-                    Verwijder alle filters
-                </a>
-            </div>
             <div class="category__first--filter">
                 <span>Vlonderplanken</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="9.078" height="9.078" viewBox="0 0 9.078 9.078">
@@ -900,8 +894,7 @@
                       <line x2="6.25" y2="6.25" transform="translate(523.14 350.014)" fill="none" stroke="#d90613" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                       <line y1="6.25" x2="6.25" transform="translate(523.14 350.014)" fill="none" stroke="#d90613" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                     </g>
-                  </svg>
-                  
+                </svg>
             </div>
             <div class="category__first--filter">
                 <span>Europees eiken</span>
@@ -912,6 +905,10 @@
                     </g>
                   </svg>
                   
+            </div>
+            <br>
+            <div class="category__first--filter">
+                <span>Clear all</span>
             </div>
             <div class="category__first--select mt-30">
                 <div class="category__select__top">
@@ -1095,7 +1092,7 @@
                           </svg>
                           
                     </div></br>
-                    <div class="category__first--filter clear">
+                    <div class="category__first--filter">
                         <span>Clear all</span>
                     </div>
                     <div class="category__first--select mt-30">
@@ -1831,7 +1828,7 @@
                                 <li>Overige</li>
                             </ul>
                         </div>
-                        <input type="email" name="email" pattern=".+@+.+\.com" class="email-inp" placeholder="Vul je e-mailadres in">
+                        <input type="email" name="email" class="email-inp" placeholder="Vul je e-mailadres in">
                         <button>
                             INSCHRIJVEN
                             <svg xmlns="http://www.w3.org/2000/svg" width="6.715" height="13.112" viewBox="0 0 6.715 13.112">
