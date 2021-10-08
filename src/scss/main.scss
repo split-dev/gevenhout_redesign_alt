@@ -66,7 +66,9 @@ body{
 }
 .btn-green {
     transition: 0.3s;
+    border: solid 2px #036e31;
     &:hover {
+        border: solid 2px #f07d02;
         background-color: #f07d02 !important;
         font-weight: 500;
 

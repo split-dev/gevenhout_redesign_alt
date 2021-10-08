@@ -100,10 +100,6 @@
     }
 
 
-
-
-
-
     .landingslider__inner{
         flex-direction: column-reverse;
     }
@@ -123,6 +119,10 @@
     }
     .promo__first{
         width: 100%;
+        img {
+            max-height: 650px;
+            height: auto;
+        }
     }
     .promo__second{
         width: 100%;
@@ -138,9 +138,8 @@
         }
     }
     .promo__last img{
-        width: 100%;
+        max-width: 100%;
         height: auto;
-        margin-left: 0px;
     }
     .promo__text{
         margin-top: 50px;
@@ -522,7 +521,7 @@
     .landinginfo__text p{
         width: 100%;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 25px;
     }
     .landingslider__first h3{
         margin-bottom: 30px;
@@ -538,9 +537,8 @@
         font-size: 22px;
     }
     .promo__second{
-        padding: 20px;
+        padding: 40px 20px;
         height: auto;
-        padding-bottom: 40px;
     }
     .promo__last{
         padding-top: 50px;
@@ -583,6 +581,7 @@
     }
     .promo__first img{
         height: auto;
+
     }
     .landinginfo{
         margin-top: -40px;
@@ -603,6 +602,16 @@
     }
     .category__last__inner .products__slide{
         margin-bottom: 90px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .toplanding__buttons {
+        flex-direction: column;
+        a {
+            &:last-of-type {
+                margin: 20px 0 0 0;
+            }
+        }
     }
 }
 @media screen and (max-width: 400px) {
