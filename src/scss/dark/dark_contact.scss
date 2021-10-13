@@ -1,0 +1,28 @@
+body.dark {
+    .contact {
+        &__inner {
+            form {
+                input {
+                    background-color:#1C1C1C;
+                    color:#b9b9b9;
+                    &::placeholder {
+                        color:#666;
+                    }
+                }
+            }
+        }
+        &__info {
+            a {
+                color:#b9b9b9;
+            }
+        }
+        &__last {
+            &__inner {
+                background-color:#1C1C1C;
+            }
+        }
+    }
+    .contactinfo__bg{
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMzEyLjc4NiIgaGVpZ2h0PSI2ODQuOTIzIiB2aWV3Qm94PSIwIDAgMjMxMi43ODYgNjg0LjkyMyI+CiAgPHBhdGggaWQ9ItCa0L7QvdGC0YPRgF8yODEiIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDI4MSIgZD0iTTExODYuMSw2NDAuOTE4bC05LjkzMywxNC4xNTMtMTIuMTEsMTcuMjUyYTkuMTQ5LDkuMTQ5LDAsMCwxLTE1LjMzNSwwbC0xMi4xMDktMTcuMjUyLTkuOTMzLTE0LjE1M0gwdjY4NC45MjNIMjMxMi43ODZWNjQwLjkxOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTY0MC45MTgpIiBmaWxsPSIjMTIxMjEyIi8+Cjwvc3ZnPgo=");
+    }
+}

@@ -18,66 +18,92 @@ Page Styles
 @import './pagestyles/category';
 @import './pagestyles/landing';
 @import './pagestyles/contact';
-*,*::before,*::after{
+
+/*
+Dark Styles
+*/
+@import './dark/dark_category';
+@import './dark/dark_contact';
+@import './dark/dark_landing';
+@import './dark/dark_product';
+@import './dark/dark';
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-.container{
+
+.container {
     max-width: $container;
     margin: 0 auto;
     padding: 0px 15px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-body{
+
+body {
     padding-top: 100px;
 }
 
 .custom-select-header {
     font-family: 'Roboto', sans-serif !important;
 }
+
 .product-option svg {
     max-width: 150px;
 }
+
 .products__slider__info h4 {
     display: block !important;
 }
+
 .header__mob__menu--first {
     overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .header__menu--first__bottom {
     margin-top: 40px;
 }
+
 .contact__info a span svg {
     min-width: 52px;
 }
 
 .btn-orange {
     transition: 0.3s;
+
     &:hover {
         background-color: #036e31 !important;
     }
 }
+
 .btn-green {
     transition: 0.3s;
+
     &:hover {
         background-color: #f07d02 !important;
         font-weight: 500;
 
     }
 }
+
 .btn-white {
     transition: 0.3s;
+
     &:hover {
         background-color: #fff;
         color: #036e31;
         font-weight: 500;
+
         svg {
             path {
                 stroke: #036e31;
@@ -86,8 +112,8 @@ body{
 
     }
 }
+
 /*
 Media Queries
 */
 @import './components/media';
-
